@@ -1,0 +1,22 @@
+<div class="main-container">
+
+    <h2>Angular 2 essential</h2>
+
+    <nav class="navlink-wrap">
+        <!-- routerLink - адрес для ссылки -->
+        <a class="navlink" routerLink="/home" routerLinkActive="active">Home</a>
+        <a class="navlink" routerLink="/list1" routerLinkActive="active">List 1</a>
+        <a class="navlink" routerLink="/list2" routerLinkActive="active">List 2</a>
+    </nav>
+
+    <div>
+        <!-- после этого элемента будет загружаться контент роута -->
+        <router-outlet></router-outlet>
+    </div>
+
+    <!--<h2>Hello World list</h2>-->
+    <!--<hello-world-list></hello-world-list>-->
+    <!--<br>-->
+    <!--<br>-->
+    <!--<my-element></my-element>-->
+</div>

@@ -1,0 +1,17 @@
+:host {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    border: 1px solid #a5d7ea;
+}
+
+.list {
+    cursor: pointer;
+}
+
+.list > li:hover {
+    font-weight: bold;
+}
+
+.result {
+    padding: 10px;
+}

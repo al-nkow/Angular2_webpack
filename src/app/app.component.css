@@ -1,0 +1,27 @@
+.main-container {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333333;
+}
+.navlink-wrap {
+    margin-bottom: 10px;
+    cursor: default;
+}
+.navlink {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+    color: #333333;
+}
+.navlink:hover{
+    background: #cce9f7;
+}
+.navlink.active {
+    background: #3c98c1;
+    color: #ffffff;
+}
