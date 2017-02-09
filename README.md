@@ -28,8 +28,12 @@ npm run server:dev:hmr
 ```
 go to [http://0.0.0.0:3000](http://0.0.0.0:3000) or [http://localhost:3000](http://localhost:3000) in your browser
 
+
+
+
 ## File Structure
 
+```
 angular2-webpack-starter/
  ├──config/                        * our configuration
  |   ├──helpers.js                 * helper functions for our configuration files
@@ -157,7 +161,6 @@ npm run e2e:live
 ```bash
 npm run build:docker
 ```
-
 # AoT Don'ts
 The following are some things that will make AoT compile fail.
 
@@ -176,4 +179,3 @@ For example to use Bootstrap as an external stylesheet:
 2) `npm install` the version of Boostrap you want.
 3) In `styles.scss` add `@import 'bootstrap/scss/bootstrap.scss';`
 4) In `src/app/app.module.ts` add underneath the other import statements: `import '../styles/styles.scss';`
-
